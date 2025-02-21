@@ -1,0 +1,41 @@
+Project Title: Personal Vault & Expense Tracker Application
+
+Description:
+I want to create a secure personal vault application where I can store my usernames, passwords for multiple websites, personal documents, and track my monthly spending using different payment sources. The application should have an AI-powered interface for ease of use.
+
+Features:
+
+1. User Authentication:
+Login via GitHub OAuth
+Login via Gmail OTP-based authentication
+2. Data Storage & Security:
+Securely store usernames and passwords with encryption
+Upload and manage personal documents
+Implement AES-256 encryption for data protection
+3. Expense Tracking & Financial Insights:
+Track monthly spending via credit cards, debit cards, UPI, and other payment sources
+Categorize expenses (e.g., Food, Rent, Shopping, Entertainment)
+View spending trends with graphs and insights
+AI-powered suggestions to optimize monthly expenditures
+Export reports as CSV/PDF
+4. User Interface:
+Simple and clean UI for easy navigation
+Dashboard for personal vault and spending insights
+Responsive design for mobile and desktop
+5. AI-Powered Assistance:
+Suggest strong passwords for account creation
+Auto-fill login details for saved websites
+AI-driven expense analysis (e.g., "You're overspending on dining out!")
+Smart budget recommendations based on past spending habits
+6. Tech Stack Suggestions:
+Frontend: React.js (with Tailwind CSS for styling)
+Backend: Node.js with Express
+Database: PostgreSQL or Firebase
+Authentication: OAuth (GitHub) & Firebase Authentication (Gmail OTP)
+Encryption: bcrypt or AES-256
+Graphs & Charts: Chart.js or Recharts for financial analytics
+7. Hosting & Deployment:
+Host on Replit for development and testing
+Option to deploy on Vercel or Firebase for better accessibility
+Expected Outcome:
+A fully functional, secure personal vault and expense tracking application that helps me manage my sensitive information while keeping track of my monthly spending. The AI should assist with password management, security checks, auto-filling features, and financial insights.
